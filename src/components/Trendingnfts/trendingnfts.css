@@ -1,0 +1,26 @@
+.tn-title{
+    padding: 24px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 36px;
+
+}
+.trendingnfts{
+    /* padding:0px; */
+    position: relative;
+}
+.tn-bg{
+    height: 650px;
+    width: 650px;
+    background-color: var(--tf-right-bg);
+    filter: blur(160.58px);
+    position: absolute;
+    left: 27%;
+    top: 135%;
+   /* transform: translate(-50%); */
+}
+.tn-btn{
+    margin-top: 36px;
+    font-size: 14px;
+    cursor: pointer;
+}

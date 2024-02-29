@@ -1,0 +1,15 @@
+.brands-int{
+    width: 100%;
+    max-width: auto;
+    cursor: pointer;
+}
+
+.bi-logo{
+    background-color: black;
+     width: 100%;
+     height: 180px;
+     cursor: pointer;
+}
+.bi-logo:hover{
+     cursor: pointer;
+}

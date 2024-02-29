@@ -1,0 +1,89 @@
+.topfold{
+    height: 92vh;
+    overflow: hidden;
+    margin-top: 12px;
+    padding-top: 20px;
+    background-blend-mode: multiply;
+}
+.tf-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+
+.tf-heading{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.tf-left-btns{
+    margin-top: 36px;
+    display: flex;
+
+}
+.tf-left-secondary-btn{
+  margin-left: 36px;
+
+}
+.tf-left-info{
+    display: flex;
+    padding: 48px 0px 0px;
+}
+
+.tf-left-info-item{
+     margin: 24px;
+}
+
+.tf-left-info-count{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.tf-left-info-label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tf-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.tf-right-diamond{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+
+}
+
+.tf-r-diamond-items{
+         height: 240px;
+         width: 240px;
+         overflow: hidden;
+         margin: 2px;
+         transform: rotate(-45deg);
+         border: 3px solid white;
+         border-radius: 12px;
+}
+.tf-r-diamond-img{
+    height: 300px;
+    object-fit: contain;
+    display: block;
+
+}
+
+.tf-right-bg{
+    height: 550px;
+    width: 550px;
+    background-color: var(--tf-right-bg);
+    filter: blur(160.58px);
+    position: absolute;
+    z-index: -99;
+    left: 20%;
+    top: 10%;
+    transform: translate(-50%);
+
+}
+
+
